@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>SB Admin - Start Bootstrap Template</title>
+  <!-- Bootstrap core CSS-->
+  <link href="../css/bootstrap/bootstrap.css" rel="stylesheet">
+  <link href="../css/menu-sidebar.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="../js/jquery/jquery-1.12.4.js"></script>
+    <script src="../js/bootstrap/bootstrap.js"></script>
+    <script src="../js/sb-admin.js"></script>
+      <script type="text/javascript">
+      $(document).ready(function () {
+          var trigger = $('.hamburger'),
+          overlay = $('.overlay'),
+          isClosed = false;
+
+          trigger.click(function () {
+          hamburger_cross();      
+    });
+
+    function hamburger_cross() {
+
+      if (isClosed == true) {          
+        overlay.hide();
+        trigger.removeClass('is-open');
+        trigger.addClass('is-closed');
+        isClosed = false;
+      } else {   
+        overlay.show();
+        trigger.removeClass('is-closed');
+        trigger.addClass('is-open');
+        isClosed = true;
+      }
+  }
+  
+  $('[data-toggle="offcanvas"]').click(function () {
+        $('#wrapper').toggleClass('toggled');
+  });  
+});
+  </script> 
+  </div>
+</body>
+
+</html>
