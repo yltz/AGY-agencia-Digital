@@ -64,7 +64,6 @@ padding: 0 !important;
 .img-fluid{
   width: 100%;
   height: auto;
-  margin: 15px;
 }
 
 .card {
@@ -91,7 +90,7 @@ padding: 0 !important;
 }
 
 .card-body > li > a {
-  color: rgb(64,31,132)!important;
+  color: rgb(46,123,125)!important;
   font-weight: bold;
 }
 .img-footer{
