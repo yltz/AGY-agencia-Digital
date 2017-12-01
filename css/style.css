@@ -92,7 +92,7 @@ padding: 0 !important;
 } 
 .bg-dark {
    color: #f8f8f8;
-    background-color: #343a40!important;
+    background-color: #f49b4d!important;
 }
 
 .card-body > li > a {
@@ -112,4 +112,14 @@ padding: 0 !important;
 
 .bannergisselle{
   height: auto;
+}
+
+.section-heading{
+  font-weight: bold;
+  color: black;
+}
+
+
+.section-heading1{
+  color:#f49b4d;
 }
